@@ -1,8 +1,8 @@
 title: Switchboard Phone System
 description: SwitchBoard is a corporate PBX phone system built on Asterisk. By leveraging the Asterisk Real-time capabilities, SwitchBoard can fulfill a company's phone system needs from a user-friendly web interface.
 
-# theme: minima
-theme: jekyll-theme-minimal
+theme: minima
+# theme: jekyll-theme-minimal
 # remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
