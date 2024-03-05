@@ -19,6 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Switchboard Phone System
+host: 127.0.0.1
+port: 4000
 email: support@prominic.net
 description: >- # this means to ignore newlines until "baseurl:"
   SwitchBoard is a corporate PBX phone system built on Asterisk. By leveraging the Asterisk Real-time capabilities, SwitchBoard can fulfill a company's phone system needs from a user-friendly web interface.
@@ -28,26 +30,15 @@ twitter_username: prominic
 facebook_username: Prominic
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .idea/
+  - .gitignore
+  - vendor
+  - _build.sh
+  - _serve.sh
