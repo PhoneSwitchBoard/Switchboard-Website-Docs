@@ -24,7 +24,7 @@ port: 4000
 email: support@prominic.net
 description: >- # this means to ignore newlines until "baseurl:"
   SwitchBoard is a corporate PBX phone system built on Asterisk. By leveraging the Asterisk Real-time capabilities, SwitchBoard can fulfill a company's phone system needs from a user-friendly web interface.
-baseurl: "/_site" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: prominic
 facebook_username: Prominic
