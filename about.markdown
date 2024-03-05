@@ -1,18 +1,15 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Docs
+permalink: /docs/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Switchboard is a web phone interface that allows you to manage incoming and outgoing calls for the staff of a company. It uses Voice over Internet Protocol (VoIP) technology to manage telephone calls over a data network, such as the Internet.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Switchboard works with [Asterisk](https://www.asterisk.org/), a private branch exchange (PBX), so it connects a certain number of communication terminals, such as telephones or fax machines, to each other and to the public telephone network.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+With Switchboard, people in all departments of a company can stay connected, handling calls from different offices as local calls. It will be easy for operators to keep track of the calls they make, having the conversations recorded for reference.
 
+If you want to know more about Switchboard Phone System, please contact Support at [Prominic.NET, Inc][prominic-organization]
 
-[jekyll-organization]: https://github.com/jekyll
+[prominic-organization]: https://www.prominic.net/
