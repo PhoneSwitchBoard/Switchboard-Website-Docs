@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="home">
+  <div class="container">
+    <a href="{{ "/" | relative_url }}">
+      <img src="images/Logo_small.png" alt="Switchboard Logo" />
+    </a>
+  </div>
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
