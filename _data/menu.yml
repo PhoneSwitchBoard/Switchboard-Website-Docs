@@ -4,11 +4,20 @@
     - title: "Sign in for the first time"
       link: /docs/sign_in
 
-    - title: "Call Recording"
-      link: /docs/moonshine/set_sdk
-
     - title: "Interface Configuration"
       link: /docs/interface_config
+
+    - title: "Queues"
+      link: /docs/queue
+
+    - title: "Agents and Extensions"
+      link: /docs/agent
+
+    - title: "Recordings"
+      link: /docs/recording
+
+    - title: "Call Records"
+      link: /docs/call_record
 
     - title: "SIP Trunks"
       link: /docs/moonshine/create_and_build_desktop_projects
