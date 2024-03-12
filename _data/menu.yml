@@ -5,7 +5,7 @@
       link: /docs/moonshine/set_sdk
 
     - title: "Interface Configuration"
-      link: /docs/moonshine/build_moonshine_in_moonshine
+      link: /docs/interface_config
 
     - title: "SIP Trunks"
       link: /docs/moonshine/create_and_build_desktop_projects
