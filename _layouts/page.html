@@ -7,8 +7,13 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
-  <div class="post-content">
-    {{ content }}
+  <div class="container docpage-layout">
+    <div id="sidenav-wrapper" class="sidebar sidenav-wrapper">
+      {% include tree.html id="sidenav-desktop" tree=site.data.menu %}
+    </div>
+    <div class="post-content post-menu-content">
+      {{ content }}
+    </div>
   </div>
 
 </article>

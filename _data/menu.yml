@@ -1,0 +1,35 @@
+- title: "Switchboard"
+  link: /docs/
+  subtree:
+    - title: "Call Recording"
+      link: /docs/moonshine/set_sdk
+
+    - title: "Interface Configuration"
+      link: /docs/moonshine/build_moonshine_in_moonshine
+
+    - title: "SIP Trunks"
+      link: /docs/moonshine/create_and_build_desktop_projects
+      subtree:
+      - title: "Twilio Connect"
+        link: /docs/recaptcha/introduction
+
+      - title: "Inbound Routes"
+        link: /docs/recaptcha/architecture
+
+      - title: "Outbound Routes"
+        link: /docs/recaptcha/royale
+
+    - title: "Local and Remote extensions"
+      link: /docs/moonshine/create_and_build_royale_projects
+
+    - title: "Call Records"
+      link: /docs/moonshine/create_and_build_web_projects
+
+    - title: "Voicemails"
+      link: /docs/moonshine/create_and_build_mobile_projects
+
+    - title: "Conferences"
+      link: /docs/moonshine/debug_project
+
+    - title: "Internationalization"
+      link: /docs/moonshine/apache_ant_build

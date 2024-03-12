@@ -1,0 +1,21 @@
+.sidebar {
+  grid-area: sidebar;
+  overflow-y: scroll;
+  max-width: 30%;
+}
+
+.sidenav-wrapper {
+  position: "fixed";
+  display: flex !important;
+  padding-right: 2%;
+}
+
+.docpage-layout {
+  margin: auto;
+  display: flex; //grid
+}
+
+.post-menu-content {
+  max-width: 70%;
+  padding-left: 2%;
+}
