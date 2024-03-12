@@ -1,6 +1,9 @@
 - title: "Switchboard"
   link: /docs/
   subtree:
+    - title: "Sign in for the first time"
+      link: /docs/sign_in
+
     - title: "Call Recording"
       link: /docs/moonshine/set_sdk
 
