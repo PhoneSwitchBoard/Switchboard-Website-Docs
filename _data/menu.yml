@@ -13,6 +13,9 @@
     - title: "Agents and Extensions"
       link: /docs/extension
 
+    - title: "Set Up VoIP Phones"
+      link: /docs/phone
+
     - title: "Recordings"
       link: /docs/recording
 
