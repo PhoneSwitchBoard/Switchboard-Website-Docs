@@ -34,12 +34,6 @@
       - title: "Outbound Routes"
         link: /docs/recaptcha/royale
 
-    - title: "Local and Remote extensions"
-      link: /docs/moonshine/create_and_build_royale_projects
-
-    - title: "Call Records"
-      link: /docs/moonshine/create_and_build_web_projects
-
     - title: "Voicemails"
       link: /docs/moonshine/create_and_build_mobile_projects
 
