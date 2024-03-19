@@ -38,7 +38,7 @@
       link: /docs/voicemail
 
     - title: "Conferences"
-      link: /docs/moonshine/debug_project
+      link: /docs/conference
 
     - title: "Internationalization"
       link: /docs/moonshine/apache_ant_build
