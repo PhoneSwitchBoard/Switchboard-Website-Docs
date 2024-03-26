@@ -13,13 +13,13 @@ Once connected, <ins>from the phone</ins> go to `Menu` -> `Status` and check the
 
 Use that IP address to access the phone's configuration page from your browser. Get a detailed guide on how to access this page [here](https://www.3cx.com/sip-phones/manually-configure-yealink-t32g-t38g-t42g-t46g/).
 
-Go to the Account tab and use the following image as a reference to configure your phone.
+Go to the Account tab and use the following image as a reference to configure your VoIP phone.
 
 
-![Screenshot: Interface Config](./../images/voip_phone_conf.png)
+![Screenshot: VoIP Phone](./../images/voip_phone_conf.png)
 
 
-* The `Display Name`, `Register Name` and `User Name` are the extension number, which you previously configured for your agent in the Switchboard Interface.
+* The `Display Name`, `Register Name` and `User Name` are the extension number, which you previously configured for your agent in the **Switchboard** Interface.
 
 * The Password is the one stored in the `ps_auths` DB table, for your extension.
 
@@ -28,17 +28,90 @@ Go to the Account tab and use the following image as a reference to configure yo
 
 ## Set Up a Soft Phone
 
+You can choose between the different brands of Softphones available on the market.
 
-You can choose between the different brands of Softphones available on the market. For this demo we chose to use **3CX**. You can go to their [website](https://www.3cx.com/voip/softphone/) and click on `Get started: Download the free softphone here`.
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Microsip')">Microsip</button>
+  <button class="tablinks" onclick="openCity(event, '3CX')">3CX</button>
+</div>
 
-Once the software has been downloaded and installed, go to `Set accounts`, and then Create a wew account, using the `New` button. Below is a reference image so you have an idea of how to configure your soft phone.
+<!-- Tab content -->
+<div id="Microsip" class="tabcontent" style="display: block;">
+  <h3>Microsip</h3>
+  To use <b>Microsip</b>, an open source portable SIP softphone for <b>Windows</b>, based on <b>PJSIP</b>; you can go to the downloads on their <a href="https://www.microsip.org/downloads">website</a>, and choose the version you want to install.
+  <br><br>
+		Once the software has been downloaded and installed, go to the down arrow icon -> <code class="language-plaintext highlighter-rouge">Add account</code>.
+	<br><br>
+	<p align="center">
+  	<img src="./../images/microsip_add_account.png" />
+  </p>
+  <br>
+  <p align="center">
+  	<img src="./../images/microsip_new_account.png" />
+  </p>
+  <br>
+  <ul>
+	  <li>
+	  	<p>The <code class="language-plaintext highlighter-rouge">Account Name</code> is the name you want to give to the account, which is sufficiently explicit if you later have several accounts configured on your softphone.</p>
+	  </li>
+	  <li>
+	    <p>The <code class="language-plaintext highlighter-rouge">SIP Server</code> and <code class="language-plaintext highlighter-rouge">Domain</code> are the IP address, local or public, of the server where the <b>Asterisk</b> service to which you want to connect your calls is installed.</p>
+	  </li>
+	  <li>
+	    <p>The <code class="language-plaintext highlighter-rouge">Username</code> and <code class="language-plaintext highlighter-rouge">Login</code> are the Extension number. Remember that in <b>Switchboard</b> an Agent can have more than one extension number. Make sure you choose the right one.</p>
+	  </li>
+	  <li>
+	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one stored in the <code class="language-plaintext highlighter-rouge">ps_auths</code> DB table, for your extension.</p>
+	  </li>
+	</ul>
+</div>
 
+<div id="3CX" class="tabcontent">
+  <h3>3CX</h3>
+  If you decide to use <b>3CX</b>, you can go to their <a href="https://www.3cx.com/voip/softphone/">website</a> and click on <code class="language-plaintext highlighter-rouge">Get started: Download the free softphone here</code>.
+  <br><br>
+	Once the software has been downloaded and installed, go to <code class="language-plaintext highlighter-rouge">Set accounts</code>, and then Create a wew account, using the <code class="language-plaintext highlighter-rouge">New</code> button. Below is a reference image so you have an idea of how to configure your soft phone.
+	<br><br>
+	<p align="center">
+  	<img src="./../images/3cx.png" />
+  </p>
+  <br>
+  <ul>
+  	<li>
+	  	<p>The <code class="language-plaintext highlighter-rouge">Account Name</code> is the name you want to give to the account, which is sufficiently explicit if you later have several accounts configured on your softphone.</p>
+	  </li>
+	  <li>
+	  	<p>Note that the <code class="language-plaintext highlighter-rouge">Caller ID</code>, <code class="language-plaintext highlighter-rouge">Extension</code> and <code class="language-plaintext highlighter-rouge">ID</code> are the extension number, which you previously configured for your agent in the <b>Switchboard</b> Interface.</p>
+	  </li>
+	  <li>
+	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one stored in the <code class="language-plaintext highlighter-rouge">ps_auths</code> DB table, for your extension.</p>
+	  </li>
+	  <li>
+	    <p>The external IP is the IP address of your server, where the <strong>Asterisk</strong> service is installed. Include port <em>5060</em> in the IP address, as this is the one <strong>Asterisk</strong> uses by default to communicate.</p>
+	  </li>
+	</ul>
+</div>
 
-![Screenshot: Interface Config](./../images/3cx.png)
+<script type="text/javascript">
+	function openCity(evt, cityName) {
+	  // Declare all variables
+	  var i, tabcontent, tablinks;
 
+	  // Get all elements with class="tabcontent" and hide them
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
 
-* Note that the `Caller ID`, `Extension` and `ID` are the extension number, which you previously configured for your agent in the Switchboard Interface.
+	  // Get all elements with class="tablinks" and remove the class "active"
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
 
-* The Password is the one stored in the `ps_auths` DB table, for your extension.
-
-* The external IP is the IP address of your server, where the **Asterisk** service is installed. Include port _5060_ in the IP address, as this is the one **Asterisk** uses by default to communicate.
+	  // Show the current tab, and add an "active" class to the button that opened the tab
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+</script>
