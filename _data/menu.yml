@@ -23,7 +23,7 @@
       link: /docs/call_record
 
     - title: "SIP Trunks"
-      link: /docs/moonshine/create_and_build_desktop_projects
+      link: /docs/trunk
       subtree:
       - title: "Twilio Connect"
         link: /docs/recaptcha/introduction
