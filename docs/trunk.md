@@ -29,3 +29,6 @@ Also, if you are an experienced user, there is also option to configure Advanced
 
 
 ![Screenshot: Trunk Advanced Settings](./../images/trunk_advanced.png)
+
+
+If you want to learn more about Trunks configuration, you can use this [link](https://www.twilio.com/en-us/blog/sip-trunk-vs-sip-line).
