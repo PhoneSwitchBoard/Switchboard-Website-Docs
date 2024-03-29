@@ -29,7 +29,7 @@
         link: /docs/recaptcha/introduction
 
       - title: "Inbound Routes"
-        link: /docs/recaptcha/architecture
+        link: /docs/inbound_route
 
       - title: "Outbound Routes"
         link: /docs/test
