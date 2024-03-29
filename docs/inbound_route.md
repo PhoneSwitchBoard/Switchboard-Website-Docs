@@ -20,4 +20,7 @@ In this way, in the system you can easily specify what to do when you receive a 
 3. Your phone system **IVR**, that "answering machine" that interacts with Users through the use of voice and **DTMF** tones input with a keypad.
 
 
+![Screenshot: Edit Inbound Route](./../images/inbound_route_edit.png)
+
+
 ![Screenshot: Create Inbound Route](./../images/inbound_route_create.png)
