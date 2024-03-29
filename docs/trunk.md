@@ -28,6 +28,9 @@ In Switchboard we create a trunk in the initial configuration of your interface,
 Also, if you are an experienced user, there is also option to configure Advanced settings, in the `Advanced` tab.
 
 
+![Screenshot: Edit Trunk](./../images/trunk_edit.png)
+
+
 ![Screenshot: Trunk Advanced Settings](./../images/trunk_advanced.png)
 
 
