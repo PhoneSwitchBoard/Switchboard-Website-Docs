@@ -1,7 +1,7 @@
 - title: "Switchboard"
   link: /docs/
   subtree:
-    - title: "Sign in for the first time"
+    - title: "How to access?"
       link: /docs/sign_in
 
     - title: "Interface Configuration"

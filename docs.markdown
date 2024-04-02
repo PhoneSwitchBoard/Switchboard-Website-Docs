@@ -10,6 +10,6 @@ Switchboard works with [Asterisk](https://www.asterisk.org/), a private branch e
 
 With Switchboard, people in all departments of a company can stay connected, handling calls from different offices as local calls. It will be easy for operators to keep track of the calls they make, having the conversations recorded for reference.
 
-If you want to know more about Switchboard Phone System, please contact Support at [Prominic.NET, Inc][prominic-organization]
+If you want to know more about Switchboard Phone System, please contact Sales at [STARTcloud, Inc.][startcloud-contactus]
 
-[prominic-organization]: https://www.prominic.net/
+[startcloud-contactus]: https://startcloud.com/contact-us.html
