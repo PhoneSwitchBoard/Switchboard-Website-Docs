@@ -26,7 +26,7 @@
       link: /docs/trunk
       subtree:
       - title: "Twilio Connect"
-        link: /docs/test
+        link: /docs/twilio
 
       - title: "Inbound Routes"
         link: /docs/inbound_route
