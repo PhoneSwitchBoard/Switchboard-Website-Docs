@@ -1,6 +1,6 @@
 ---
 title: Set Up VoIP Phones
-permalink: /docs/phone
+permalink: /docs/phone_config
 layout: page
 ---
 

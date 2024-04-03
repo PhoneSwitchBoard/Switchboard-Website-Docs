@@ -12,6 +12,6 @@ With **STARTcloud** you can have confidence when launching cloud instances, with
 We offer the option to integrate with a set of tools that will help you easily migrate your contacts and link with services that you will need to work hand in hand with the software solutions we offer.
 
 
-If you want to know more about STARTcloud and the solutions we offer, please contact Sales at [STARTcloud, Inc.][startcloud-contactus]
+If you want to know more about **STARTcloud** and the solutions we offer, please contact Sales at [STARTcloud, Inc.][startcloud-contactus]
 
 [startcloud-contactus]: https://startcloud.com/contact-us.html

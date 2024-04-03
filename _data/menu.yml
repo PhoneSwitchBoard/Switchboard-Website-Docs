@@ -20,7 +20,7 @@
       link: /docs/launch
 
     - title: "Set Up VoIP Phones"
-      link: /docs/phone
+      link: /docs/phone_config
 
     - title: "Switchboard Phone System"
       link: /docs/switchboard
