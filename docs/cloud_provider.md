@@ -32,8 +32,7 @@ Select `Attach policies directly` and then `Create policy`.
 Now, choose `JSON` and replace the content in the Policy editor with the following code. Then click `Next`.
 (Note that you will be giving access with the access key that we are creating, only to the application at the IP Address 192.103.6.92).
 
-
-<pre><code><small><small>
+```
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -69,8 +68,7 @@ Now, choose `JSON` and replace the content in the Policy editor with the followi
     }
   ]
 }
-</small></small></code></pre>
-
+```
 
 
 ![Screenshot: AWS Create User Step 3](./../images/aws_create_user_step3.png)
