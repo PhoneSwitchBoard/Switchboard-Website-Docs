@@ -19,6 +19,9 @@
     - title: "Launch Switchboard Instance"
       link: /docs/launch
 
+    - title: "Set Up VoIP Phones"
+      link: /docs/phone
+
     - title: "Switchboard Phone System"
       link: /docs/switchboard
       subtree:
@@ -33,9 +36,6 @@
 
       - title: "Agents and Extensions"
         link: /docs/extension
-
-      - title: "Set Up VoIP Phones"
-        link: /docs/phone
 
       - title: "Recordings"
         link: /docs/recording
