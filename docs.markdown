@@ -4,12 +4,14 @@ title: Docs
 permalink: /docs/
 ---
 
-Switchboard is a web phone interface that allows you to manage incoming and outgoing calls for the staff of a company. It uses Voice over Internet Protocol (VoIP) technology to manage telephone calls over a data network, such as the Internet.
 
-Switchboard works with [Asterisk](https://www.asterisk.org/), a private branch exchange (PBX), so it connects a certain number of communication terminals, such as telephones or fax machines, to each other and to the public telephone network.
+**STARTcloud** is an innovative platform that reduces virtualization efforts by helping you launch self-developed software instances that solve real problems for businesses like yours.
 
-With Switchboard, people in all departments of a company can stay connected, handling calls from different offices as local calls. It will be easy for operators to keep track of the calls they make, having the conversations recorded for reference.
+With **STARTcloud** you can have confidence when launching cloud instances, without having to give up control of your data.
 
-If you want to know more about Switchboard Phone System, please contact Sales at [STARTcloud, Inc.][startcloud-contactus]
+We offer the option to integrate with a set of tools that will help you easily migrate your contacts and link with services that you will need to work hand in hand with the software solutions we offer.
+
+
+If you want to know more about STARTcloud and the solutions we offer, please contact Sales at [STARTcloud, Inc.][startcloud-contactus]
 
 [startcloud-contactus]: https://startcloud.com/contact-us.html

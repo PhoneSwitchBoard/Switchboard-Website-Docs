@@ -1,44 +1,50 @@
-- title: "Switchboard"
+- title: "STARTcloud"
   link: /docs/
   subtree:
-    - title: "How to access?"
-      link: /docs/sign_in
-
-    - title: "Interface Configuration"
-      link: /docs/interface_config
-
-    - title: "Queues"
-      link: /docs/queue
-
-    - title: "Agents and Extensions"
-      link: /docs/extension
-
-    - title: "Set Up VoIP Phones"
-      link: /docs/phone
-
-    - title: "Recordings"
-      link: /docs/recording
-
-    - title: "Call Records"
-      link: /docs/call_record
-
-    - title: "SIP Trunks"
-      link: /docs/trunk
+    - title: "Launch Switchboard Instance from STARTcloud"
+      link: /docs/launch
       subtree:
       - title: "Twilio Connect"
         link: /docs/twilio
 
-      - title: "Inbound Routes"
-        link: /docs/inbound_route
+    - title: "Switchboard Phone System"
+      link: /docs/switchboard
+      subtree:
+      - title: "How to access?"
+        link: /docs/sign_in
 
-      - title: "Outbound Routes"
-        link: /docs/outbound_route
+      - title: "Interface Configuration"
+        link: /docs/interface_config
 
-    - title: "Voicemails"
-      link: /docs/voicemail
+      - title: "Queues"
+        link: /docs/queue
 
-    - title: "Conferences"
-      link: /docs/conference
+      - title: "Agents and Extensions"
+        link: /docs/extension
 
-    - title: "Internationalization"
-      link: /docs/language
+      - title: "Set Up VoIP Phones"
+        link: /docs/phone
+
+      - title: "Recordings"
+        link: /docs/recording
+
+      - title: "Call Records"
+        link: /docs/call_record
+
+      - title: "SIP Trunks"
+        link: /docs/trunk
+        subtree:
+        - title: "Inbound Routes"
+          link: /docs/inbound_route
+
+        - title: "Outbound Routes"
+          link: /docs/outbound_route
+
+      - title: "Voicemails"
+        link: /docs/voicemail
+
+      - title: "Conferences"
+        link: /docs/conference
+
+      - title: "Internationalization"
+        link: /docs/language
