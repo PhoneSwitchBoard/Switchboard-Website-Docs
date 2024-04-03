@@ -12,22 +12,24 @@ layout: page
 
 1. #### **AWS**
 
+- **Create a New User**
+
 If you choose to use **AWS**, please [sign in](https://signin.aws.amazon.com/signin) to your account there. At the top left go to the menu option `Services` -> `IAM` -> `Users` -> `Create User`.
 
 
 Assign a referential user name for access to the application you are going to launch. Also, you can leave the **Provide user access to the AWS Management Console** option unchecked.
 
 
-![Screenshot: AWS Create User Step 1](./../images/aws_create_step1.png)
+![Screenshot: AWS Create User Step 1](./../images/aws_create_user_step1.png)
 
 
 Select `Attach policies directly` and then `Create policy`.
 
 
-![Screenshot: AWS Create User Step 2](./../images/aws_create_step2.png)
+![Screenshot: AWS Create User Step 2](./../images/aws_create_user_step2.png)
 
 
-Now, choose `JSON` and paste the code below. Then click `Next`.
+Now, choose `JSON` and replace the content in the Policy editor with the following code. Then click `Next`.
 (Note that you will be giving access with the access key that we are creating, only to the application at the IP Address 192.103.6.92).
 
 
@@ -71,10 +73,42 @@ Now, choose `JSON` and paste the code below. Then click `Next`.
 
 
 
-![Screenshot: AWS Create User Step 3](./../images/aws_create_step3.png)
+![Screenshot: AWS Create User Step 3](./../images/aws_create_user_step3.png)
 
 
 Set a Policy name and click `Create Policy`.
 
 
-![Screenshot: AWS Create User Step 4](./../images/aws_create_step4.png)
+![Screenshot: AWS Create User Step 4](./../images/aws_create_user_step4.png)
+
+
+Go back to the list of Users and click on `Create User` using the policy we just created. (You can use the search field to find it). Click on `Next` and the user should have been created successfully.
+
+
+![Screenshot: AWS Create User Step 5](./../images/aws_create_user_step5.png)
+
+
+- **Create Access Key**
+
+
+Go back to the **Users** list and choose the user you just created. Now select the `Create Access Key` option.
+
+
+![Screenshot: AWS Create Access Key Step 1](./../images/aws_access_key_step1.png)
+
+
+![Screenshot: AWS Create Access Key Step 2](./../images/aws_access_key_step2.png)
+
+
+![Screenshot: AWS Create Access Key Step 3](./../images/aws_access_key_step3.png)
+
+
+![Screenshot: AWS Create Access Key Step 4](./../images/aws_access_key_step4.png)
+
+
+- **Copy your Access Key to the STARTcloud Integrations**
+
+
+<p align="center">
+  <img src="./../images/integration_add.png" />
+</p>
