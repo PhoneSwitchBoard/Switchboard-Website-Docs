@@ -109,6 +109,15 @@ Go back to the **Users** list and choose the user you just created. Now select t
 - **Copy your Access Key to the STARTcloud Integrations**
 
 
+Go back to the STATcloud Integrations page, and copy:
+
+1. The **Access Key** (from AWS) to the **Key Name**.
+2. The **Secret Access Key** (from AWS) to the **Key Value**.
+3. Add an optional **Description**.
+4. Select **AWS EC2** as the **Type**.
+5. Click on `Save`.
+
+
 <p align="center">
   <img src="./../images/integration_add.png" />
 </p>
