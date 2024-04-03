@@ -1,11 +1,23 @@
 - title: "STARTcloud"
   link: /docs/
   subtree:
-    - title: "Launch Switchboard Instance from STARTcloud"
-      link: /docs/launch
+    - title: "First steps on STARTcloud"
+      link: /docs/first_steps
+
+    - title: "Cloud Providers"
+      link: /docs/cloud_provider
+
+    - title: "SSH Keys"
+      link: /docs/ssh_key
+
+    - title: "Integrations"
+      link: /docs/integration
       subtree:
       - title: "Twilio Connect"
         link: /docs/twilio
+
+    - title: "Launch Switchboard Instance"
+      link: /docs/launch
 
     - title: "Switchboard Phone System"
       link: /docs/switchboard
