@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs
+title: STARTcloud
 permalink: /docs/
 ---
 
