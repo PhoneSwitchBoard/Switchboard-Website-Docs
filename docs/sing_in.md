@@ -7,12 +7,15 @@ layout: page
 ## Log in to the Phone Interface
 
 
-When you launched your instance, you received an URL to access it, along with the admin password. For first-time access, please locate your admin login details, and go to the URL provided.
+You will find a link to enter your Phone Application when logging into **STARTcloud** and going to `My Applications`. Select the application you want to open and click on the _Login link_.
+
+
+![Screenshot: Enter Switchboard Application](./../images/launch_completed.png)
+
+
+Now you just have to log in and start using **Switchboard Cloud**.
 
 
 <p align="center">
   <img src="./../images/sign_in.png" />
 </p>
-
-
-username: admin
