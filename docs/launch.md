@@ -73,7 +73,7 @@ Now, we will create the first phone extension, which will be your _mobile phone 
 ![Screenshot: Launch Switchboard Application](./../images/launch_step10.png)
 
 
-Also, you can configure a _VoIP phone_ in this step, or if you wish you can do it later. A password will be required to establish a connection with each peer. Set up one in this step and don't forget to save it in your records. More details on how to configure _VoIP phones_ to connect to your phone application can be found [here](./../docs/phone_config).
+Also, you can configure a _VoIP phone_ in this step, or if you wish you can do it later. A password will be required to establish a connection with each peer. Set up one in this step and don't forget to save it in your records.
 
 ![Screenshot: Launch Switchboard Application](./../images/launch_step11.png)
 
@@ -81,3 +81,6 @@ Also, you can configure a _VoIP phone_ in this step, or if you wish you can do i
 The initialization process of the Phone System has been completed.
 
 ![Screenshot: Launch Switchboard Application](./../images/launch_step12.png)
+
+
+Next, you can then use the **IP Address**, **Extension** and **Password** shown on this screen to configure your _VoIP phone_ so that it can connect to the telephone interface. More details on how to do it [here](./../docs/phone_config).
