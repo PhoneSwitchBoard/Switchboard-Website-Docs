@@ -13,9 +13,9 @@ Once you log in to your interface, go to the `Interface Config` menu option.
 ![Screenshot: Interface Config](./../images/interface_config.png)
 
 
-You will find a List of Uninitialized Configuration Properties, on the left of the page, with those properties that you must set, one time, so that your phone system is correctly configured to be able to make phone calls.
+You will find a List of _Uninitialized Configuration Properties_, on the left of the page, these are those properties that you must configure, once, so that your phone system is fully  configured and you can take advantage of all the functions of the Phone System.
 
-Below is a list where you will find all the configuration variables, with a description that explains the purpose of each in the operation of the system, along with an example value for each of them.
+To set those properties that are not initialized, find the description and an example of each of them below:
 
 
 | **Category** | **Property**                   | **Description**                                                                                                                                                                        |
