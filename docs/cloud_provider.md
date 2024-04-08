@@ -55,13 +55,16 @@ Now, choose `JSON` and replace the content in the Policy editor with the followi
         "ec2:DeleteKeyPair",
         "ec2:CreateSecurityGroup",
         "ec2:DeleteSecurityGroup",
-        "ec2:AuthorizeSecurityGroupIngress"
+        "ec2:AuthorizeSecurityGroupIngress",
+        "ec2:AllocateAddress",
+        "ec2:AssociateAddress",
+        "ec2:ReleaseAddress"
       ],
       "Resource": "*",
       "Condition": {
         "IpAddress": {
           "aws:SourceIp": [
-            "199.103.6.92/32"
+            "199.103.6.91/24"
           ]
         }
       }
