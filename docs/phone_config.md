@@ -19,7 +19,7 @@ Go to the Account tab and use the following image as a reference to configure yo
 ![Screenshot: VoIP Phone](./../images/voip_phone_conf.png)
 
 
-* The `Display Name`, `Register Name` and `User Name` are the extension number, which you previously configured for your agent in the **Switchboard** Interface.
+* The `Display Name`, `Register Name` and `User Name` are the extension number, which you previously configured for your agent in the **Switchboard Cloud** Interface.
 
 * The Password is the one stored in the `ps_auths` DB table, for your extension.
 
@@ -59,7 +59,7 @@ You can choose between the different brands of Softphones available on the marke
 	    <p>The <code class="language-plaintext highlighter-rouge">SIP Server</code> and <code class="language-plaintext highlighter-rouge">Domain</code> are the IP address, local or public, of the server where the <b>Asterisk</b> service to which you want to connect your calls is installed.</p>
 	  </li>
 	  <li>
-	    <p>The <code class="language-plaintext highlighter-rouge">Username</code> and <code class="language-plaintext highlighter-rouge">Login</code> are the Extension number. Remember that in <b>Switchboard</b> an Agent can have more than one extension number. Make sure you choose the right one.</p>
+	    <p>The <code class="language-plaintext highlighter-rouge">Username</code> and <code class="language-plaintext highlighter-rouge">Login</code> are the Extension number. Remember that in <b>Switchboard Cloud</b> an Agent can have more than one extension number. Make sure you choose the right one.</p>
 	  </li>
 	  <li>
 	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one stored in the <code class="language-plaintext highlighter-rouge">ps_auths</code> DB table, for your extension.</p>
@@ -82,7 +82,7 @@ You can choose between the different brands of Softphones available on the marke
 	  	<p>The <code class="language-plaintext highlighter-rouge">Account Name</code> is the name you want to give to the account, which is sufficiently explicit if you later have several accounts configured on your softphone.</p>
 	  </li>
 	  <li>
-	  	<p>Note that the <code class="language-plaintext highlighter-rouge">Caller ID</code>, <code class="language-plaintext highlighter-rouge">Extension</code> and <code class="language-plaintext highlighter-rouge">ID</code> are the extension number, which you previously configured for your agent in the <b>Switchboard</b> Interface.</p>
+	  	<p>Note that the <code class="language-plaintext highlighter-rouge">Caller ID</code>, <code class="language-plaintext highlighter-rouge">Extension</code> and <code class="language-plaintext highlighter-rouge">ID</code> are the extension number, which you previously configured for your agent in the <b>Switchboard Cloud</b> Interface.</p>
 	  </li>
 	  <li>
 	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one stored in the <code class="language-plaintext highlighter-rouge">ps_auths</code> DB table, for your extension.</p>

@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Switchboard Phone System
+title: Switchboard Cloud Phone System
 host: 127.0.0.1
 port: 4000
 email: Sales@STARTcloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  SwitchBoard is a corporate PBX phone system built on Asterisk. By leveraging the Asterisk Real-time capabilities, SwitchBoard can fulfill a company's phone system needs from a user-friendly web interface.
+  SwitchBoard Cloud Phone System is a corporate PBX phone system built on Asterisk. By leveraging the Asterisk Real-time capabilities, SwitchBoard Cloud can fulfill a company's phone system needs from a user-friendly web interface.
 company-description: STARTcloud.com is an innovative platform that helps you virtualize self-developed software, solving the needs of companies like yours.
 baseurl: 
 # baseurl: "/Switchboard-Website"

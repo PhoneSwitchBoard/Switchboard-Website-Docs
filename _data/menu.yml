@@ -18,13 +18,13 @@
       - title: "Microsoft 365"
         link: /docs/microsoft
 
-    - title: "Launch Switchboard Instance"
+    - title: "Launch Switchboard Cloud Instance"
       link: /docs/launch
 
     - title: "Set Up VoIP Phones"
       link: /docs/phone_config
 
-    - title: "Switchboard Phone System"
+    - title: "Switchboard Cloud Phone System"
       link: /docs/switchboard
       subtree:
       - title: "How to access?"
