@@ -33,6 +33,7 @@ You can choose between the different brands of Softphones available on the marke
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Microsip')">Microsip</button>
+  <button class="tablinks" onclick="openCity(event, 'Zoiper')">Zoiper</button>
   <button class="tablinks" onclick="openCity(event, '3CX')">3CX</button>
 </div>
 
@@ -56,14 +57,41 @@ You can choose between the different brands of Softphones available on the marke
 	  	<p>The <code class="language-plaintext highlighter-rouge">Account Name</code> is the name you want to give to the account, which is sufficiently explicit if you later have several accounts configured on your softphone.</p>
 	  </li>
 	  <li>
-	    <p>The <code class="language-plaintext highlighter-rouge">SIP Server</code> and <code class="language-plaintext highlighter-rouge">Domain</code> are the IP address, local or public, of the server where the <b>Asterisk</b> service to which you want to connect your calls is installed.</p>
+	    <p>The <code class="language-plaintext highlighter-rouge">SIP Server</code> and <code class="language-plaintext highlighter-rouge">Domain</code> are the IP address, local or public, of the server where the <b>Asterisk</b> service to which you want to connect your calls is installed (Or the IP address of the instance you launched from <strong>STARTcloud</strong>).</p>
 	  </li>
 	  <li>
 	    <p>The <code class="language-plaintext highlighter-rouge">Username</code> and <code class="language-plaintext highlighter-rouge">Login</code> are the Extension number. Remember that in <b>Switchboard Cloud</b> an Agent can have more than one extension number. Make sure you choose the right one.</p>
 	  </li>
 	  <li>
-	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one stored in the <code class="language-plaintext highlighter-rouge">ps_auths</code> DB table, for your extension.</p>
+	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one you configured for your VoIP extension. You can also find it stored in the <strong>ps_auths</strong> DB table, for your extension number.</p>
 	  </li>
+	</ul>
+</div>
+
+<div id="Zoiper" class="tabcontent">
+  <h3>Zoiper</h3>
+  If you decide to use <b>Zoiper</b>, you can go to their <a href="https://www.zoiper.com/en/voip-softphone/download/current">website</a> and click on <code class="language-plaintext highlighter-rouge">Download</code>, based on the operating system you use.
+  <br><br>
+	Once the software has been downloaded and installed, go to <code class="language-plaintext highlighter-rouge">Settings</code> (gear icon) -> <code class="language-plaintext highlighter-rouge">Accounts</code> -> <code class="language-plaintext highlighter-rouge">Add</code>. Below is a reference image so you have an idea of how to configure your soft phone.
+	<br><br>
+	<p align="center">
+  	<img src="./../images/zoiper.png" />
+  </p>
+  <br>
+  <ul>
+  	<li>
+	  	<p>You can click the Pencil Icon at the top center to set an explicit <code class="language-plaintext highlighter-rouge">Account Name</code>.</p>
+	  </li>
+  	<li>
+	    <p>The <code class="language-plaintext highlighter-rouge">Domain</code> is the IP address of your server, where the <strong>Asterisk</strong> service is installed (Or the IP address of the instance you launched from <strong>STARTcloud</strong>).</p>
+	  </li>
+  	<li>
+	  	<p>The <code class="language-plaintext highlighter-rouge">Username</code> is the extension number, which you previously configured for your agent in the <b>Switchboard Cloud</b> Interface.</p>
+	  </li>
+	  <li>
+	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one you configured for your VoIP extension. You can also find it stored in the <strong>ps_auths</strong> DB table, for your extension number.</p>
+	  </li>
+
 	</ul>
 </div>
 
@@ -85,10 +113,10 @@ You can choose between the different brands of Softphones available on the marke
 	  	<p>Note that the <code class="language-plaintext highlighter-rouge">Caller ID</code>, <code class="language-plaintext highlighter-rouge">Extension</code> and <code class="language-plaintext highlighter-rouge">ID</code> are the extension number, which you previously configured for your agent in the <b>Switchboard Cloud</b> Interface.</p>
 	  </li>
 	  <li>
-	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one stored in the <code class="language-plaintext highlighter-rouge">ps_auths</code> DB table, for your extension.</p>
+	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one configured for your VoIP extension. You can also find it stored in the <strong>ps_auths</strong> DB table, for your extension number.</p>
 	  </li>
 	  <li>
-	    <p>The external IP is the IP address of your server, where the <strong>Asterisk</strong> service is installed. Include port <em>5060</em> in the IP address, as this is the one <strong>Asterisk</strong> uses by default to communicate.</p>
+	    <p>The external IP is the IP address of your server, where the <strong>Asterisk</strong> service is installed (Or the IP address of the instance you launched from <strong>STARTcloud</strong>). Include port <em>5060</em> in the IP address, as this is the one <strong>Asterisk</strong> uses by default to communicate.</p>
 	  </li>
 	</ul>
 </div>
