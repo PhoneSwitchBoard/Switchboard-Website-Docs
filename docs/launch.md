@@ -55,9 +55,16 @@ Select the necessary integrations before launching the new instance. Integration
 ![Screenshot: Launch Switchboard Cloud Application](./../images/launch_step7.png)
 
 
-The instance will take about _20 minutes_ to reach the `COMPLETED` status. Once the process is finished you can access it from the **login link**.
+It will take about 2 minutes before you see any progress in the progress bar.
+
 
 ![Screenshot: Launch Switchboard Cloud Application](./../images/launch_step8.png)
+
+
+The instance will take about _20 minutes_ to reach the `COMPLETED` status. Once the process is finished you can access it from the **login link**.
+
+
+![Screenshot: Launch Switchboard Cloud Application](./../images/launch_step8_2.png)
 
 
 Welcome to the set-up wizard of your new telephone application. Set a login password for your Administrator user.
