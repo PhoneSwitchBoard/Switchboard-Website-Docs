@@ -91,7 +91,9 @@ You can choose between the different brands of Softphones available on the marke
 	  <li>
 	    <p>The <code class="language-plaintext highlighter-rouge">Password</code> is the one you configured for your VoIP extension. You can also find it stored in the <strong>ps_auths</strong> DB table, for your extension number.</p>
 	  </li>
-
+	  <li>
+	    <p>Click on <strong>Register</strong>.</p>
+	  </li>
 	</ul>
 </div>
 
