@@ -5,6 +5,8 @@ permalink: /docs/
 ---
 
 
+**STARTcloud** makes it easy for you to deploy and manage applications on multi-cloud platforms.
+
 **STARTcloud** is an innovative platform that reduces virtualization efforts by helping you launch self-developed software instances that solve real problems for businesses like yours.
 
 With **STARTcloud** you can have confidence when launching cloud instances, without having to give up control of your data.
